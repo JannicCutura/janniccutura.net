@@ -1,39 +1,39 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Jannic Alexander Cutura
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Research Analyst
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Stanford University
-  url: https://www.stanford.edu/
+- name: European Central Bank
+  url: https://www.ecb.eu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include financial stability and regulation as well distributed computing and cloud.
 
 # Interests to show in About widget
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Financial stability & regulation
+- Distributed computing & cloud
+
 
 # Education to show in About widget
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
+  - course: PhD in Quantitative Economics
+    institution: Goethe Univeristy
+    year: 2019
+  - course: MSc in Quantitiave Economics
+    institution: Goethe University
+    year: 2017
+  - course: BSc in Economics
+    institution: Albert-Ludwigs-University
     year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -43,18 +43,15 @@ social:
 - icon: envelope
   icon_pack: fas
   link: '/#contact'
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
 - icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
   icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2760521
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/JannicCutura
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/
+  link: https://www.linkedin.com/in/jannic-cutura/
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
@@ -70,8 +67,13 @@ email: ""
 highlight_name: true
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Welcome to my personal website! My name is Jannic Cutura. 
+I am a research analyst in the data center of the monetary policy analysis division at the European Central Bank. I have held previous appointments at the International Monetary Fund and the Bank for International Settlements. 
+I work at the intersection of data science and data engineering and my passion is to enable regulators & supervisors to use granular microdatasets to inform their decision making by provisioning high quality datasets and running analysis.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+
+
+Disclaimer: The views expressed on this page are my own and do not represent the views of the ECB or the Eurosystem.
+

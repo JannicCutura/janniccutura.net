@@ -22,11 +22,11 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
+  - title: Research Analyst 
+    company: European Central Bank
     company_url: ''
-    company_logo: org-gc
-    location: California
+    #company_logo: org-gc
+    location: Frankfurt am Main, Germany
     date_start: '2021-01-01'
     date_end: ''
     description: |2-
@@ -36,14 +36,23 @@ experience:
         * Modelling
         * Deploying
         
-  - title: Professor of Semiconductor Physics
-    company: University X
+  - title: PhD Summer Intern
+    company: International Monetary Fund
     company_url: ''
-    company_logo: org-x
-    location: California
+    location: Washington DC, USA
+    date_start: '2016-01-01'
+    date_end: '2020-12-31'
+    description: Coauthored the fall 2019 Global Financial Stability Report's analytical chapter on [Banks dollar funding -- a source of financial vulnerability](https://www.imf.org/~/media/Files/Publications/GFSR/2019/October/English/ch5.ashx?la=en) 
+
+  - title: Research Intern
+    company: Bank for International Settlements
+    company_url: ''
+    #company_logo: org-x
+    location: Basel, Switzerland
     date_start: '2016-01-01'
     date_end: '2020-12-31'
     description: Taught electronic engineering and researched semiconductor physics.
+
 
 design:
   columns: '2'
