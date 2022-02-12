@@ -54,16 +54,17 @@ featured: true
 links:
  - name: View Online
    url: https://www.imf.org/en/Publications/GFSR/Issues/2019/10/01/global-financial-stability-report-october-2019
+ - name: Annex
+   url: https://www.imf.org/-/media/Files/Publications/GFSR/2019/October/English/onlineannex5.ashx
 
 url_pdf: ''
 url_code: ''
-url_dataset: ''
+url_dataset: 'https://www.imf.org/-/media/Files/Publications/GFSR/2019/October/English/Data/gfsroct2019-ch5.ashx'
 url_poster: ''
 url_project: ''
 url_slides: ''
 url_source: ''
-url_video: ''
-
+url_video: 'https://www.imf.org/en/Videos/view?vid=6094056463001'
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:

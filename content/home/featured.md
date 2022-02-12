@@ -7,7 +7,7 @@ widget: featured
 headless: true
 
 # Order that this section appears on the page.
-weight: 24
+weight: 22
 
 title: New Publication!
 subtitle: ""

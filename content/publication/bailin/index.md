@@ -45,7 +45,9 @@ links:
  - name: ESRB WP
    url: https://www.esrb.europa.eu/pub/pdf/wp/esrb.wp111~7cc1deceb3.en.pdf
  - name: SAFE WP 
-   uel: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3723467
+   url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3723467
+ - name: Bundesbank Poster
+   url: https://www.dropbox.com/s/2drdoi645kczxaa/Poster_BubaConference.pdf?dl=0
 
 url_pdf: ''
 url_code: ''

@@ -12,19 +12,29 @@ role: Research Analyst
 organizations:
 - name: European Central Bank
   url: https://www.ecb.eu/
+#- name: SAFE
+#  url: https://www.ecb.eu/
+
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include financial stability and regulation as well distributed computing and cloud.
 
 # Interests to show in About widget
 interests:
-- Financial stability & regulation
-- Distributed computing & cloud
+- Financial Stability & Regulation
+- Hadoop Ecosystem
+- Data Science & Engineering
+- Python Applications
+- Code version control system
+- AWS & Cloud 
 
 
 # Education to show in About widget
 education:
   courses:
+  - course: PhD Visiting Scholar
+    institution: Columbia Univeristy 
+    year: 2019
   - course: PhD in Quantitative Economics
     institution: Goethe Univeristy
     year: 2019
@@ -56,9 +66,9 @@ social:
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
 # and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: uploads/resume.pdf
+- icon: cv
+  icon_pack: ai
+  link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -68,7 +78,7 @@ highlight_name: true
 ---
 
 Welcome to my personal website! My name is Jannic Cutura. 
-I am a research analyst in the data center of the monetary policy analysis division at the European Central Bank. I have held previous appointments at the International Monetary Fund and the Bank for International Settlements. 
+I am a research analyst in the data center of the monetary policy analysis division at the European Central Bank. I have held previous appointments at the International Monetary Fund and the Bank for International Settlements and I have a MSc & PhD in quantitative economics from Goethe university.
 I work at the intersection of data science and data engineering and my passion is to enable regulators & supervisors to use granular microdatasets to inform their decision making by provisioning high quality datasets and running analysis.
 
 

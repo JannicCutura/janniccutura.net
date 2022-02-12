@@ -1,21 +1,19 @@
 ---
-title: "Debt derisking"
+title: "Incentive Effects from Write-down CoCo Bonds - An Empirical Analysis"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
 - admin
-- Gianpaolo Parise
-- Andreas Schrimpf
-
+- Henning Hesse
 
 # Author notes (optional)
 #author_notes:
 #- "Equal contribution"
 #- "Equal contribution"
 
-date: "2020-06-01T00:00:00Z"
+date: "2022-02-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -25,17 +23,17 @@ publishDate: "2017-01-01T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Bank for International Settlements Working Paper Series*
-publication_short: In *Bank for International Settlements Working Paper Series*
+publication: In *Journal of Financial Regulation*
+publication_short: In *Journal of Financial Regulation*
 
-abstract: We examine how corporate bond fund managers manipulate portfolio risk in response to incentives. We find that liquidity risk concerns drive the allocation decisions of underperforming funds, whereas tournament incentives are of secondary importance. This leads laggard fund managers to trade off yield for liquidity, while holding the exposure to other sources of risk constant. The documented de-risking is stronger for managers with shorter tenure and is reinforced by a more concave flow-to-performance sensitivity and by periods of market stress. De-risking meaningfully reduces ex post liquidation costs. Flexible NAVs (swing pricing) may, however, reduce de-risking incentives and create moral hazard.
+abstract: Departing from the principle of absolute priority, CoCo bonds are particularly exposed to bank losses despite not having ownership rights. This paper shows the link between adverse CoCo design and their yields, confirming the existence of market discipline in designated bail-in debt. Specifically, focusing on the write-down feature as loss absorption mechanism in CoCo debt, we do find a yield premium on this feature relative to equity-conversion CoCo bonds as predicted by theoretical models. Moreover, and consistent with theories on moral hazard, we find this premium to be largest when existing incentives for opportunistic behaviour are largest, while this premium is non-existent if moral hazard is perceived to be small. Overall, our findings support the notion of market discipline through monitoring debt investors and have important implications for the optimal design of CoCos from a regulatory perspective.  
 
 
 # Summary. 
-summary: We examine how corporate bond fund managers manipulate portfolio risk in response to incentives. We find that liquidity risk concerns drive the allocation decisions of underperforming funds, whereas tournament incentives are of secondary importance which leads laggard fund managers to trade off yield for liquidity, while holding the exposure to other sources of risk constant.
+summary: We document that equity-conversion CoCos bond carry a premium in the secondary bond market. We show that the premium is driven by moral hazard considerations. 
  
 
 tags: []
@@ -45,10 +43,11 @@ featured: true
 
 # Custom links (uncomment lines below)
 links:
- - name: View Online
-   url: https://www.bis.org/publ/work868.htm
-
-url_pdf: 'https://www.bis.org/publ/work868.pdf'
+ - name: SAFE WP
+   url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2797203
+ - name: Poster
+   url: https://www.dropbox.com/s/0z4upqjolkowipa/Poster_CoCos.pdf?dl=0
+url_pdf: ''
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -60,7 +59,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Authors plot**](https://www.bis.org/publ/work868.pdf)'
+  caption: 'Image credit: [**Authors graph**]()'
   focal_point: ""
   preview_only: false
 

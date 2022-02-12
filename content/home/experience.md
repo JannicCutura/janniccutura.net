@@ -7,7 +7,7 @@ widget: experience
 headless: true
 
 # Order that this section appears on the page.
-weight: 40
+weight: 70
 
 title: Experience
 subtitle:
@@ -27,31 +27,25 @@ experience:
     company_url: ''
     #company_logo: org-gc
     location: Frankfurt am Main, Germany
-    date_start: '2021-01-01'
+    date_start: '2019-05-01'
     date_end: ''
-    description: |2-
-        Responsibilities include:
-        
-        * Analysing
-        * Modelling
-        * Deploying
-        
+    description: Running the divisions ETL pipelines for the analytical credit dataset AnaCredit and securities data. 
   - title: PhD Summer Intern
     company: International Monetary Fund
     company_url: ''
     location: Washington DC, USA
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Coauthored the fall 2019 Global Financial Stability Report's analytical chapter on [Banks dollar funding -- a source of financial vulnerability](https://www.imf.org/~/media/Files/Publications/GFSR/2019/October/English/ch5.ashx?la=en) 
+    date_start: '2019-06-17'
+    date_end: '2019-09-06'
+    description: Coauthored the fall 2019 Global Financial Stability Report's analytical chapter on [Banks dollar funding - a source of financial vulnerability](https://www.imf.org/~/media/Files/Publications/GFSR/2019/October/English/ch5.ashx?la=en) 
 
   - title: Research Intern
     company: Bank for International Settlements
     company_url: ''
     #company_logo: org-x
     location: Basel, Switzerland
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+    date_start: '2016-12-01'
+    date_end: '2017-05-01'
+    description:  Structuring and cleaning Thomson Reuters Lipper eMAXX database using R/Python for [research project](https://www.bis.org/publ/work868.pdf)
 
 
 design:

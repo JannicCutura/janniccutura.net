@@ -1,9 +1,9 @@
 ---
-title: Econometrics at Scale - Spark up Big Data in Economics
-summary: An overview of how to employ big data tools for research in economics
+title: Econometrics at Scale
+summary: This project and the associated repository document how to used Spark to run several regresion frameworks frequently employed in economics. 
 tags:
 - Data engineering
-date: "2016-04-27T00:00:00Z"
+date: "2019-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -13,10 +13,10 @@ image:
   focal_point: Smart
 
 links:
-- icon: twitter
+- icon: github
   icon_pack: fab
-  name: Follow
-  url: https://twitter.com/georgecushen
+  name: Github
+  url: https://github.com/benjaminbluhm/econometrics_at_scale
 url_code: ""
 url_pdf: ""
 url_slides: ""
@@ -27,7 +27,7 @@ url_video: ""
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
+#slides: example
 ---
 
 
@@ -50,18 +50,10 @@ Data download:
 
 | Data set        | Url                                                                          |
 |-----------------|------------------------------------------------------------------------------|
-| HDMA*           |  `https://www.dropbox.com/sh/y5vrc3fnhwvw14o/AAAkgKja5YVpTT2vSUM0dW6-a?dl=0` |
+| HDMA(1)           |  `https://www.dropbox.com/sh/y5vrc3fnhwvw14o/AAAkgKja5YVpTT2vSUM0dW6-a?dl=0` |
 | HDMA subset     |  `https://www.dropbox.com/s/z690uga5a0qrezv/HMDA_subsample.csv?dl=0`         |    
 | Simulated panel |  `https://www.dropbox.com/sh/vk2ra1ufupi0yky/AABHUX6FZxIOWdk9LMnNTy5ea?dl=0` |
 | Time series     |  See Chapter 4.4 for simulation code                                         |
 
 
-* The original data can be obtained from the [FFIEC website](https://www.consumerfinance.gov/data-research/hmda/explore).
-
-
-
-[![Python](https://img.shields.io/static/v1?label=made%20with&message=Python&color=blue&style=for-the-badge&logo=Python&logoColor=white)](#)
-[![R](https://img.shields.io/static/v1?label=made%20with&message=R&color=blue&style=for-the-badge&logo=R&logoColor=white)](#)
-
-
- 
+(1) The original data can be obtained from the [FFIEC website](https://www.consumerfinance.gov/data-research/hmda/explore).

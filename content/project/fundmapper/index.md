@@ -1,9 +1,10 @@
 ---
 title: FundmappeR
-summary: An open source project go crawl and parse money market fund (MMF) data.
+summary: FundmappeR is an open source project to crawl and parse money market fund (MMF) data from the Security Exchange Comission (SEC) EDGAR system. 
+
 tags:
 - Data engineering
-date: "2016-04-27T00:00:00Z"
+date: "2021-01-16T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -11,6 +12,13 @@ external_link: ""
 image:
   caption: Authors graph
   focal_point: Smart
+
+# Custom links (uncomment lines below)
+links:
+ - icon: github
+   icon_pack: fab
+   name: Github
+   url: https://github.com/JannicCutura/fundmappeR
 
 
 url_code: ""
@@ -23,12 +31,10 @@ url_video: ""
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
+#slides: example
 ---
 
-# fundmappeR [<img src="https://github.com/JannicCutura/fundmappeR/blob/main/docs/icons8-map-100.png">](https://icons8.com/icons/set/map)
 
-[![version](https://img.shields.io/badge/version-1.0.0-success.svg)](#)
 
 ## About 
 This repo contains codes to build the `fundmappeR` project, an open source tool that webscraps portfolios
@@ -55,7 +61,10 @@ as an event trigger for lambda, which picks up the raw filing, parses its XML st
 These are stored in on S3, partitioned by year. AWS Glue crawler populates the data catalog, used for Adhoc queries in Athena. A Glue ETL 
 job runs a pyspark script which transform the individial csv files into parquet tables and stores them in a public S3 bucket to make
 the data available to the user. 
-![](https://github.com/JannicCutura/fundmappeR/blob/main/docs/fundmapper.png) 
+
+{{< figure src="https://github.com/JannicCutura/fundmappeR/blob/main/docs/fundmapper.png?raw=true" title="Architecture Diagram" >}}
+
+ 
 
 ## Usage
 
@@ -88,7 +97,8 @@ There are four tables available, stored in monthly versions:
 
 A data dictionary is available [here](https://github.com/JannicCutura/fundmappeR/blob/main/data_dictionary/data_dictionary.xlsx). 
 
-![](https://github.com/JannicCutura/fundmappeR/blob/main/docs/database_schema.png)
+{{< figure src="https://github.com/JannicCutura/fundmappeR/blob/main/docs/database_schema.png?raw=true" title="Database Schema" >}}
+
 
 
 [Chernenko2014]: <https://academic.oup.com/rfs/article-abstract/27/6/1717/1598733?redirectedFrom=fulltext> "Mytitle"
@@ -96,8 +106,3 @@ A data dictionary is available [here](https://github.com/JannicCutura/fundmappeR
 [Huang2011]: <https://www.sciencedirect.com/science/article/abs/pii/S104295731000029X>
 [reuters2020]: <https://www.reuters.com/article/g20-markets-regulation/regulators-target-money-market-funds-after-covid-19-turmoil-idUSL8N2I22GO>
 [correa2012]: <https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj469Sp3rfuAhUMPuwKHd-pCuUQFjABegQIBhAC&url=https%3A%2F%2Fwww.ecb.europa.eu%2Fevents%2Fpdf%2Fconferences%2Fexliqmmf%2Fsession3_Correa_paper.pdf%3F1d92aade465b2b883a1a51d1b11f7295&usg=AOvVaw1A00b7DY74n4bnX5s3QaGL>
-## Authors 
-[Jannic Cutura](https://www.linkedin.com/in/dr-jannic-alexander-cutura-35306973/), 2020
-
-[![Python](https://img.shields.io/static/v1?label=made%20with&message=Python&color=blue&style=for-the-badge&logo=Python&logoColor=white)](#)
-[![R](https://img.shields.io/static/v1?label=made%20with&message=R&color=blue&style=for-the-badge&logo=R&logoColor=white)](#)
