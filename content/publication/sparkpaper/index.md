@@ -1,6 +1,7 @@
 ---
 title: "Econometrics at Scale: Spark Up Big Data in Economics"
 
+
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
@@ -27,8 +28,8 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Journal of Data Science*
-publication_short: In *Journal of Data Science*
+publication: In *Journal of Data Science (accepted)*
+publication_short: In *Journal of Data Science (accepted)*
 
 abstract: This paper provides an overview of how to use “big data” for economic research. We investigate the performance and ease of use of diﬀerent Spark applications. running on a distributed ﬁle system to enable the handling and analysis of data sets which were previously not usable due to their size. More speciﬁcally, we explain how to use Spark to (i) explore big data sets which exceed retail grade computers memory size and (ii) run typical econometric tasks including microeconometric, panel data and time series regression models which are prohibitively expensive to evaluate on stand-alone machines. By bridging the gap between the abstract concept of Spark and ready-to-use examples which can easily be altered to suite the researchers need, we provide economists and social scientists more generally with the theory and practice to handle the ever growing datasets available. The ease of reproducing the examples in this paper makes this guide a useful reference for researchers with a limited background in data handling and distributed computing.
 

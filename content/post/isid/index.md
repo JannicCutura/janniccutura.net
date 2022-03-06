@@ -43,12 +43,18 @@ tags:
 
 Primary keys are perhaps the most basic building block of relational data modelling. If you have a table containing data, (one of) the first question(s) you 
 should argueably ask is "what are the dimensions of the data?". In Economics this is sometimes referred to as the "level of observation". 
-Moer formally it is a set of keys ("columns") that uniquely identify a row in the table. In classical database archtictures such as OracleSQL you need to delare
+More formally it is a set of keys ("columns") that uniquely identify a row in the table. In classical database archtictures such as OracleSQL you need to delare
 the primary keys of a table upon creating the table. In distributed systems such as Hadoop and its SQL engine and table metastore Hive however, primary keys are not
-declared explcitely. If they are not document anywhere this can lead to confusion. In any case, it is useful to know how to test whether certain keys do constitute
+declared explicitely. If they are not documented anywhere this can lead to confusion. In any case, it is useful to know how to test whether certain keys do constitute
 a set of primary keys. The following code helps you achieve this:
 ```sql
-
+SELECT CASE WHEN MAX(tab.rows_count_each) > 1
+            THEN CAST(0 AS BOOLEAN)
+            ELSE CAST(1 AS BOOLEAN)
+       END AS 'Primary_Keys'
+FROM (SELECT COUNT(*) AS rows_count_each
+      FROM database.table_name
+      GROUP BY var1, var2) tab
 ```
 
 For those of you with less of a background in SQL, the above is equivalent to `python`:

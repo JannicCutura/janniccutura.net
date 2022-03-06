@@ -26,8 +26,8 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Journal of Financial Regulation*
-publication_short: In *Journal of Financial Regulation*
+publication: In *Journal of Financial Regulation (accepted)*
+publication_short: In *Journal of Financial Regulation (accepted)*
 
 abstract: Departing from the principle of absolute priority, CoCo bonds are particularly exposed to bank losses despite not having ownership rights. This paper shows the link between adverse CoCo design and their yields, confirming the existence of market discipline in designated bail-in debt. Specifically, focusing on the write-down feature as loss absorption mechanism in CoCo debt, we do find a yield premium on this feature relative to equity-conversion CoCo bonds as predicted by theoretical models. Moreover, and consistent with theories on moral hazard, we find this premium to be largest when existing incentives for opportunistic behaviour are largest, while this premium is non-existent if moral hazard is perceived to be small. Overall, our findings support the notion of market discipline through monitoring debt investors and have important implications for the optimal design of CoCos from a regulatory perspective.  
 
