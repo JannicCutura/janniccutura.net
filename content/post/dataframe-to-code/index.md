@@ -40,7 +40,7 @@ tags:
 #- Demo
 #- 教程
 ---
-I love the [Stack Overflow](https://stackoverflow.com/) community! Over the course of the past ten years it has saved me coountless
+I love the [Stack Overflow](https://stackoverflow.com/) community! Over the course of the past ten years it has saved me countless
 hours and prevented  situations that what would have resulted in rage quits. Given the overwhelming willingness of complete
 strangeres to help one another, the least one can do is make it as easy and comfortable as possible for them to help. 
 
@@ -73,7 +73,7 @@ df_to_code(df)
 Out[95]: 'df = pd.DataFrame( np.array([[1,2,3], ["a", "b", "c"], ]), columns = ["col_1", "col_2"], index = [0, 1, 2] )'
 ```
 	
-All you need is the function below. It already covers most data types but I will add more in the future as I encounter problems. 
+All you need is the function below. It already covers most data types but I will add more in the future as I encounter problems. Certainly need to add datetime functionality.
 Drop me an email if you have encountered (and solved?) a problem with it:
 ```python
 def df_to_code(df, n=10):

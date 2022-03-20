@@ -22,11 +22,11 @@ bio: My research interests include financial stability and regulation as well di
 # Interests to show in About widget
 interests:
 - Financial Stability & Regulation
-- Hadoop Ecosystem
+- Hadoop Ecosystem & Spark
 - Data Science & Engineering
 - Python Applications
-- Code version control system
-- AWS & Cloud 
+- Git & DevOps
+- AWS  
 
 
 # Education to show in About widget
@@ -78,7 +78,7 @@ highlight_name: true
 ---
 
 Welcome to my personal website! My name is Jannic Cutura. 
-I am a research analyst in the data center of the monetary policy analysis division at the European Central Bank. I have held previous appointments at the International Monetary Fund and the Bank for International Settlements and I have a MSc & PhD in quantitative economics from Goethe university.
+I am a research analyst in the data center of the monetary policy analysis division at the [European Central Bank](https://www.ecb.europa.eu/home/html/index.en.html). I have held previous appointments at the [International Monetary Fund](www.imf.org) and the [Bank for International Settlements](www.bis.org) and I have a MSc & PhD in quantitative economics from [Goethe university](https://www.goethe-university-frankfurt.de/en?locale=en).
 I work at the intersection of data science and data engineering and my passion is to enable regulators & supervisors to use granular microdatasets to inform their decision making by provisioning high quality datasets and running analysis.
 
 
